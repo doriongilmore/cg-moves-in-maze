@@ -1,0 +1,19 @@
+{
+  "name": "@doriongilmore/cg-moves-in-maze",
+  "version": "1.0.0",
+  "description": "My solution to CodinGame puzzle 'moves-in-maze'",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "doriongilmore",
+  "license": "MIT",
+  "dependencies": {
+    "@doriongilmore/codingame-ts-engine": "^1.0.3",
+    "@types/node": "^22.12.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
