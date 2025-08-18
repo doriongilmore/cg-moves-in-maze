@@ -1,3 +1,5 @@
+// file:/home/dorion/workspace/cg-moves-in-maze/src/playerScript.ts
+
 
 type ReadlineFunction = () => string
 
