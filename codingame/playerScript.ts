@@ -1,8 +1,3 @@
-import { PuzzleScript } from "@doriongilmore/codingame-ts-engine/types";
-
-const API: PuzzleScript = { main };
-export default API;
-// everything until this line must be removed in CodinGame
 
 type ReadlineFunction = () => string
 
@@ -188,4 +183,4 @@ function main(readline: ReadlineFunction) {
     return printSolution(mazeData.maze);
 }
 
-// main(readline);
+main(readline);

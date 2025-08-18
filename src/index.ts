@@ -1,9 +1,12 @@
 import { resolve } from "path"
-import { runPuzzle } from "@doriongilmore/codingame-ts-engine";
+import { run, type RunOptions } from "@doriongilmore/codingame-ts-engine/puzzle/Runner";
 import script from "./playerScript.js";
 
-// const oneFile = resolve("exercises", "01.json");
-// runPuzzle(script, oneFile);
+const options: RunOptions = {
+    // path: resolve("exercises", "01-easy.txt"), // run one file
+    path: resolve("exercises"), // run full folder
+    hideEngineLogs: false, // this is already the default
+    script,
+}
 
-const folder = resolve("exercises");
-runPuzzle(script, folder);
+run(options);
